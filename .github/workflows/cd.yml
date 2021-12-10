@@ -27,4 +27,4 @@ jobs:
         run: yarn build
 
       - name: Deploy
-        run: ngh --dir=dist/youtube-ang
+        run: yarn deploy
